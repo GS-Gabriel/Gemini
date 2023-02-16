@@ -1,0 +1,3 @@
+//$blacklist = array(' ', 'wget', '&', '&&', '$' ,'|' , "\\", "(", ")", "%", "!", "<");
+$blacklist = array(' ', '`', '&', '<', '>', '{', '}', '|', "\\", '(', ')', '%', 'cat', 'more', 'less');
+    if ((strposa($_POST['testcmd'], $blacklist) === false)) {
