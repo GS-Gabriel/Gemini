@@ -14,3 +14,4 @@ sudo apt-get install redis-server php-redis
 # Configure redis credentials
 echo "requirepass 8a7b86a2cd89d96dfcc125ebcc0535e6" | sudo tee -a /etc/redis/redis.conf
 sudo systemctl restart redis
+sudo systemctl restart apache2
