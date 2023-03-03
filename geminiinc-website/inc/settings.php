@@ -6,9 +6,9 @@
 
 
 // database details
-$set->db_host = 'localhost'; // database host
-$set->db_user = 'gemini2'; // database user
-$set->db_pass = 's3cr3tp2ssw0rd1337'; // database password
+$set->db_host = 'geminidatabase.chnxvqrr6sdu.sa-east-1.rds.amazonaws.com'; // database host
+$set->db_user = 'root'; // database user
+$set->db_pass = 'geminiincadmin'; // database password
 $set->db_name = 'mls'; // database name
 
 define('MLS_PREFIX', 'mls_');
