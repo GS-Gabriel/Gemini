@@ -23,7 +23,7 @@ func();
         header("Content-Disposition: inline; filename=profile.pdf");
         readfile($pdf);
 	    
-	# echo shell_exec("aws s3 cp $pdf s3://geminiinc/Logs/");
+	# echo shell_exec("aws s3 cp $pdf s3://geminiinc/Logs/ --storage-class STANDARD_IA");
     }
 ?>
 
